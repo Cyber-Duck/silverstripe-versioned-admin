@@ -62,7 +62,8 @@
     "jest-cli": "^23.6.0",
     "node-sass": "^4.5.3",
     "sass-loader": "^6.0.0",
-    "webpack": "^2.0.0"
+    "webpack": "^2.7.0",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "apollo-client": "^2.4.2",
@@ -95,5 +96,9 @@
     "plugins": [
       "transform-object-rest-spread"
     ]
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": []
 }

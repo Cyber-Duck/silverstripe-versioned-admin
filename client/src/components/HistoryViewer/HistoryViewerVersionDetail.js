@@ -102,7 +102,7 @@ class HistoryViewerVersionDetail extends PureComponent {
         itemLinks={{
           preview: {
             Stage: {
-              href: `${version.AbsoluteLink}&archiveDate=${version.LastEdited}`,
+              href: `${version.AbsoluteLink}?stage=Stage&archiveDate=${version.LastEdited}`,
               type: 'text/html',
             },
           },
