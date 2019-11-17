@@ -36,6 +36,9 @@
         "lint-clean": "phpcbf src/ tests/"
     },
     "extra": {
+        "branch-alias": {   
+            "1.x-dev": "1.2.x-dev"  
+        },
         "expose": [
             "client/dist"
         ]
